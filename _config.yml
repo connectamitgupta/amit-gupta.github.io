@@ -31,6 +31,7 @@ nav:
     url: /contact/
 
 markdown: kramdown
+permalink: pretty      # generate /experience/, /resume/, /contact/ instead of .html URLs
 theme: null            # using custom minimal theme in assets/css
 plugins:
   - jekyll-seo-tag
