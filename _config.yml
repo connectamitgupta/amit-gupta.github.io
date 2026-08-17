@@ -1,0 +1,49 @@
+title: Amit Gupta
+tagline: Product Owner | Delivery Management | AI-Native Product Delivery
+description: >-
+  Portfolio of Amit Gupta — Technical Product Owner with 21 years in enterprise
+  software, currently driving AI-native product delivery for Cisco's cloud
+  platform via Zensar Technologies.
+url: "https://connectamitgupta.github.io"   # change to your GitHub Pages URL
+baseurl: ""
+
+author:
+  name: Amit Gupta
+  email: connectamitgupta@gmail.com
+  location: Bengaluru, India
+  linkedin: https://linkedin.com/in/connectamitgupta
+  github: https://github.com/connectamitgupta   # update with your handle
+
+nav:
+  - title: Home
+    url: /
+  - title: Experience
+    url: /experience/
+  - title: Case Studies
+    url: /case-studies/
+  - title: AI & Innovation
+    url: /ai/
+  - title: Certifications
+    url: /certifications/
+  - title: Resume
+    url: /resume/
+  - title: Contact
+    url: /contact/
+
+markdown: kramdown
+theme: null            # using custom minimal theme in assets/css
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  case_studies:
+    output: true
+    permalink: /case-studies/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "case_studies"
+    values:
+      layout: "case-study"
